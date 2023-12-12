@@ -119,7 +119,20 @@
 	   		computer. By harnessing the inherent unpredictability of quantum systems, this method paves the way for applications
 	   		demanding the highest level of randomness and security, such as in cryptography and secure communications.\par
 	   		Additionally, Shannon’s entropy serves as a metric to quantify the uncertainty or randomness inherent in a probability
-	   		distribution16. In the context of a uniform quantum probability distribution, entropy is defined as \small$$H(A)=H(P(a_1),P(a_2)),...,P(a_{2^n}))=-\sum$$}
+	   		distribution16. In the context of a uniform quantum probability distribution, entropy is defined as \small$$H(A)=H(P(a_1),P(a_2)),...,P(a_{2^n}))=-\sum_{i} P(a_i)\log_2 P(a_i)\eqno(1)$$\par  In the case of a truly random process, the probability values are identical for every element, indicating maximal uncertainty.
+	   		Therefore, for a quantum system, we have $H(A) \equiv H(P(a_1)) = H(P(a_2)) = ... = H(P(a_{2^n}
+	   		))$.\par
+	   		A uniform distribution within a quantum system, consisting of 2n
+	   		elements observed over N shots, can be represented as$$ H(A)=\sum_{i=1}^{2^n} H(\frac{1}{2^n})\eqno(2)$$where $P(a_i)=\frac{1}{2^n}, i=1,...,2^n$
+	   		. This representation is utilized throughout the document, with some modifications and
+	   		constraints to effectively depict non-uniform probability distributions.\par
+	   		Table 1 provides estimates for a uniformly distributed probability process within a quantum system. Notably, this perspective
+	   		emphasizes that the introduction of extra qubits into the system leads to a partitioning of the total probability among an expanding
+	   		set of states. It is essential to recognize that the uniform distribution not only divides the probability but also signifies that the
+	   		system achieves maximum entropy. This maximum entropy is equivalent to the number of potential states within a quantum
+	   		system, as demonstrated in Equation 6.}
+	   		
+	   	
    		
 	   		
 	   		
