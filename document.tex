@@ -208,12 +208,55 @@
 	   		states, but the latter incorporates variations in probability due to the application of a set of quantum gates.
 	   		$$\triangle H'(A)= H(A)-H'(A).\eqno(5)$$\par
 	   		The entropy for a uniform distribution (6) is given by:
-	   		$$\triangle H(A)= -2^n\log_2 (\frac{1}{2^n}).\eqno(6)$$\par
+	   		$$H(A)= -2^n\log_2 (\frac{1}{2^n}).\eqno(6)$$\par
+	   		The entropy for a non-uniform distribution under the restriction 
+	   		$\sum_{i=1}^{2^n}\frac{w_i}{2^n}$ 
+	   		is expressed as:
+	   		$$H'(A)= \sum_{i=1}^{2^n}-\frac{w_i}{2^n}\log_2 (\frac{w_i}{2^n}).\eqno(7)$$\par
+	   		Further simplification:
+	   		$$H'(A)= (n)\sum_{i=1}^{2^n}\frac{w_i}{2^n}-\sum_{i=1}^{2^n}\frac{w_i}{2^n}log_2 (w_i).\eqno(8)$$\par
+	   		Simplifying this expression:
+	   		$$H'(A)= n-\sum_{i=1}^{2^n}\frac{w_i}{2^n}log_2 (w_i). \eqno(9)$$\par
+	   		Finally, the deviation of H'(A) in relation to H(A) is defined as:
+	   		$$\triangle H'(A)= \sum_{i=1}^{2^n}\frac{w_i log_2 (w_i)}{2^n}.\eqno(10)$$\par
+	   		The deviation concerning a uniformly distributed probability provides us with the following insights:
+	   		}\\
+	   		\begin{itemize}
+	   			\item The maximum entropy achieved by a uniform distribution, denoted as $H(A)$, is equal to the number of elements in the
+	   			quantum system, n.
+	   			\item The only case where $\triangle H'(A) = 0$ is the trivial scenario in which $w_i=1, 
+	   			i=1,...,2^n$. In non-trivial cases where $w_i\neq1,	i=1,...,2^n$,it follows that
+	   			$ 0 \leq H(A) < H(A)$. 
+	   			\item The value of $\triangle H'(A)$ varies in proportion to the deviation of each $w_i$ i from unity. The smaller the deviation, the closer the
+	   			value of  $\triangle H'(A)$ is to $H(A)$.
+	   		\end{itemize}
 	   		
-	   		}
+	   		{\raggedright\large\textbf{Statistical test}}\\\par
+	   		{In this subsection, the generated sequence of numbers with random properties, obtained through the innovative quantum circuit
+	   			construction, is subjected to rigorous statistical testing using the NIST SP 800-22 suite. Comprising 15 distinct tests, each
+	   			designed to calculate various indices for the provided binary data, these evaluations are crucial to determining the randomness
+	   			and reliability of the generated sequence.
+	   			For each of the 15 tests, a predefined threshold value $\alpha$ = 0.01 is established, signifying that the generated sequence must
+	   			exhibit a 99\% probability of being genuinely random to pass the test. The sequence under examination consists of a vast
+	   			array of 4,194,304 decimal numbers. Each decimal number, comprised of three digits falling within the range of [0,999], is
+	   			represented as a 10-bit string. In consequence, the entire raw dataset comprises a sequence of 41,943,040 binary digits, obtained
+	   			from the execution of 524,288 quantum circuits. Each circuit was composed of 3 qubits, utilized a scaling factor of f s = 1/100,
+	   			employed a uniform set of rotation gates for each axis, and set rotation angles at $\frac{\pi}{2}\times0.19$ for each rotation gate.
+	   			The evaluation of the statistical properties of the generated sequence, a fundamental aspect of this study, is visually
+	   			represented in Figure 2. The figure illustrates that the generated numbers exhibit a tendency to follow a uniform distribution
+	   			within the interval [0,999]. Rigorous statistical tests, conducted using the NIST SP 800-22 suite, offer valuable insights into the
+	   			robustness and authenticity of the quantum-generated random numbers. These tests serve to ensure the practical applicability of
+	   			the generated random numbers in various real-world scenarios.}\\
 	   		
-	   		
-	   	
+	   		{\raggedright\large\textbf{Equipment Description}}\\\par
+	   		{The generation and evaluation of random sequences were facilitated by cutting-edge quantum computing tools, notably the
+	   			Aer Simulator and the IBM Qiskit framework. The Aer Simulator served as a foundational element, providing a versatile and
+	   			efficient platform for simulating quantum circuits. Additionally, IBM Qiskit, a comprehensive open-source quantum computing
+	   			framework, formed the backbone of our experimentation.}\\\\
+	   		{\raggedright\large\textbf{Discussion}}\\\par
+	   		{The proposed quantum random number generation approach leverages the superposition of qubits within a quantum system.
+	   			After performing N measurements, we obtain the corresponding quasi-probabilities for specific configurations, allowing us to
+	   			generate $2^n$ quasi-probabilities corresponding to the possible states of the quantum system.}
    		
 	   		
 	   		
