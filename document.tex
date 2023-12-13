@@ -1,6 +1,9 @@
 
 \documentclass[12pt]{article}
 \usepackage[left=25mm, top=20mm, right=10mm, bottom=30mm]{geometry}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+
 \usepackage[utf8]{inputenc}
 \usepackage{authblk}
 \usepackage{mathtools}
@@ -154,11 +157,10 @@
 	   		two primary approaches to random number generation. The blue line depicts the entropy for a true random generator based on a
 	   		specific number of qubits. In contrast, the red area represents the potential entropy achievable by a pseudo-random number
 	   		generator within a quantum system. This straightforward visualization serves as compelling evidence of the extensive array of
-	   		possibilities for developing PRNGs based on quantum technology.}\\
+	   		possibilities for developing PRNGs based on quantum technology.}
 	   		
-	   		
+	   		\begin{figure}
 	   		\begin{tikzpicture}
-	   		
 	   			\begin{axis}[
 	   				xtick distance=2,
 	   				ytick distance=1,
@@ -189,11 +191,12 @@
 	   					(1,1)(1,1)  (16,1)(16,16)
 	   				};
 	   			\end{axis}
-	   		\end{tikzpicture}\\
-	   	 	{Figure 1. This figure illustrates the entropy of True Random Number Generators (TRNGs) and Pseudo Random Number
-	   	 		Generators (PRNGs) in a quantum system with varying numbers of qubits. The blue curve represents TRNGs with H(A) = n,
-	   	 		while the red area corresponds to PRNGs with $0 < H'(A) < H(A)$.}\\\\
-	   	 	
+	   		\end{tikzpicture}
+	   		\caption{  This figure illustrates the entropy of True Random Number Generators (TRNGs) and Pseudo Random Number
+	   		Generators (PRNGs) in a quantum system with varying numbers of qubits. The blue curve represents TRNGs with H(A) = n,
+	   		while the red area corresponds to PRNGs with $0 < H'(A) < H(A)$.}
+	   		\end{figure}
+	   		
 	   		{\raggedright\small\textbf{Uniform Quantum Probability Distribution with Hadamard Gate}}\par
 	   		{It’s essential to understand that probability is distributed among the states of a quantum system. Non-uniform probability
 	   			distributions can be created within a quantum system through the application of quantum gates. This means that the probability
@@ -258,7 +261,108 @@
 	   			After performing N measurements, we obtain the corresponding quasi-probabilities for specific configurations, allowing us to
 	   			generate $2^n$ quasi-probabilities corresponding to the possible states of the quantum system.}
    		
-	   		
-	   		
-	
+	   		\begin{figure}
+	   			\begin{minipage}[h]{0.99\linewidth}
+	   				\center{\includegraphics[width=1\linewidth]{graph1a}} a) \\
+	   			\end{minipage}
+	   			\vfill
+	   			\begin{minipage}[h]{0.99\linewidth}
+	   				\center{\includegraphics[width=1\linewidth]{graph1b}} \\b)
+	   			\end{minipage}
+	   			\vfill
+	   			\begin{minipage}[h]{0.99\linewidth}
+	   				\center{\includegraphics[width=1\linewidth]{graph1c}} c) \\
+	   			\end{minipage}
+	   			\vfill
+	   			\begin{minipage}[h]{0.99\linewidth}
+	   				\center{\includegraphics[width=1\linewidth]{graph1d}} d) \\
+	   			\end{minipage}
+	   			\caption{ Visualizing the Distribution of Incremental Number Sequences through Histograms: a) The first 256 numbers. b)
+	   				The initial 4096 numbers. c) The opening 65536 numbers. d) The foremost 262144 numbers..}
+	   			\label{ris:experimentalcorrelationsignals}
+	   		\end{figure}
+	   		{The main advantages of this approach can be summarized in its simplicity. It requires a small number of qubits, an
+	   			initial configuration, and a set of quantum gates that sequentially rotate the qubits. This deterministic mechanism enables the
+	   			generation of a specific set of numbers dependent on the initial configuration.
+	   			This algorithm has demonstrated its capability to generate a long sequence of numbers with random properties. The terms
+	   			wi
+	   			in the sequence are subject to the constraint
+	   			n = 1. This constraint significantly impacts the sequence of number
+	   			generation as these terms determine the entropy of a non-uniform distribution. Moreover, these terms serve as a measure to
+	   			evaluate the similarity of a distribution to a uniform distribution.
+	   			One of the main advantages of the proposal is its efficiency in generating a long sequence of numbers. This is achieved
+	   			through the periodicity of the deterministic algorithm and the methodology used to represent numbers with significant digits
+	   			ranging from 10-6
+	   			to 10-9
+	   			as binary strings or numbers in the binary system. However, a limitation of the proposal is its
+	   			inability to scale the number of used qubits. This limitation arises because the number of possible states increases exponentially
+	   			with the number of qubits, affecting the probability distribution of states.
+	   			A quantum system that generates a uniform probability distribution divides the probability evenly among 2
+	   			n
+	   			states. In
+	   			contrast, a non-uniform distribution can be represented by modifying a uniform probability through a set of terms wi
+	   			, while still
+	   			satisfying the constraint 
+	   			n = 1. This alteration can result in significant digits between 10-6
+	   			and 10-9 being set to zero,
+	   			requiring the algorithm to find numbers with even smaller significant digits and increasing the number of measurements to
+	   			improve precision.
+	   			The equation is of particular interest in this proposal. This term accommodates values of wi within the range
+	   			, allowing for a wide range of distributions. The trivial case is when wi = 1, i = 1,...,2
+	   			, which permits an infinite
+	   			variety of distributions of the values wi
+	   			. This equation has been the subject of study by various researchers17, 18 and possesses
+	   			intriguing properties. Notably, the more wi deviates from unity, the more the resulting entropy deviates from the maximum
+	   			entropy, opening the door to novel insights for measuring the proximity of a distribution to the maximum entropy in a quantum
+	   			system.
+	   			The results obtained from the application of the NIST SP800-22 test battery are presented in Table 2. These results}
+	   			\begin{center}
+	   				\begin{tabular}{ |c|c|c|c| } 
+	   					\hline
+	   					C1  & C2  & C3 & Shannon’s STATISTICAL TEST\\
+	   					\hline
+	   					1 & 2 & 0.5000 & 112312 \\ 
+	   					2 & 4 & 0.5000 & 231231 \\ 
+	   					3 & 8 & 0.3750 & 3123123 \\ 
+	   					4 & 16 & 0.2500 & 412312 \\ 
+	   					5 & 32 & 0.1563 & 512313 \\ 
+	   					5 & 32 & 0.1563 & 512313 \\ 
+	   					5 & 32 & 0.1563 & 51231 \\ 			
+	   					5 & 32 & 0.1563 & 53123 \\ 
+	   					5 & 32 & 0.1563 & 51231 \\ 
+	   					5 & 32 & 0.1563 & 51231 \\ 
+	   					5 & 32 & 0.1563 & 56785 \\ 			
+	   					5 & 32 & 0.1563 & 58678 \\ 
+	   					5 & 32 & 0.1563 & 56456 \\ 
+	   					5 & 32 & 0.1563 & 532452 \\ 			
+	   					5 & 32 & 0.1563 & 556246 \\ 
+	   					5 & 32 & 0.1563 & 5262 \\ 
+	   					5 & 32 & 0.1563 & 523423 \\ 
+	   					\hline
+	   				\end{tabular}
+	   			\end{center}
+	   			{Table 2. Estimates for qubit numbers, possible states, mean probability, and corresponding Shannon’s entropy in a random
+	   				system.\\\par
+	   				
+	   			demonstrate success in 3 out of the 15 tests. To provide context, the results are compared with those of a real-world quantum
+	   			random number generator named JUR01, and this comparison is presented in Table 3. Both generators employ different
+	   			methodologies for generating sets of numbers, each with its own advantages. The primary advantage of the proposed approach
+	   			is its capability to pass a universal test. However, a notable limitation is the absence of an adequate methodology to rotate the
+	   			qubits to generate a non-uniform probability distribution that closely approaches the maximum entropy.}\\\par
+	   			
+	   			{\raggedright\large\textbf{Conclusion}}\\\par
+	   			{In summary, the proposed quantum algorithm demonstrates a novel approach to random number generation by exploiting the
+	   				superposition of qubits within a quantum system. It offers a range of advantages, including simplicity, efficiency, and the ability
+	   				to control entropy in the generated numbers. However, it comes with certain limitations, primarily related to its scalability and
+	   				the need for improved methods to achieve non-uniform distributions close to maximum entropy.
+	   				The algorithm’s success in passing a significant portion of the NIST SP800-22 tests is a noteworthy accomplishment,
+	   				highlighting its potential in providing random numbers for various applications. Its unique exploration of entropy variations,
+	   				especially in measuring a distribution’s proximity to maximum entropy in a quantum system, presents promising prospects for
+	   				further research. As the field of quantum computing continues to evolve, addressing the algorithm’s limitations and refining its methodology
+	   				for generating non-uniform distributions could unlock a wealth of opportunities across multiple domains. This work signifies
+	   				a significant step in the direction of deterministic quantum algorithms, offering a long periodicity that can excel in random
+	   				testing. Future developments in this area hold the promise of generating high-quality random numbers and advancing quantum
+	   				computing applications.}
+	   			
+	   			
 \end{document}
