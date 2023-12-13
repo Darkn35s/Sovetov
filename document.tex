@@ -4,6 +4,10 @@
 \usepackage[utf8]{inputenc}
 \usepackage{authblk}
 \usepackage{mathtools}
+\usepackage{forloop}
+\usepackage{pgfplots}
+\usepgfplotslibrary{colormaps}
+\pgfplotsset{width=16cm,compat=newest,}
 \title{	\raggedright\Large\textbf{Exploring Quantum Systems for Pseudo-Random\\
 	Number Generation}}
 \author[1,a]{\raggedright\small\textbf{Luis Jose Mantilla Santa Cruz}}
@@ -131,6 +135,65 @@
 	   		set of states. It is essential to recognize that the uniform distribution not only divides the probability but also signifies that the
 	   		system achieves maximum entropy. This maximum entropy is equivalent to the number of potential states within a quantum
 	   		system, as demonstrated in Equation 6.}
+	 		\begin{center}
+	 			\begin{tabular}{ |c|c|c|c| } 
+	 				\hline
+	 				Qubits  & Possible States  & Probability & Shannon’s Entropy\\
+	 				\hline
+	 				1 & 2 & 0.5000 & 1 \\ 
+	 				2 & 4 & 0.5000 & 2 \\ 
+	 				3 & 8 & 0.3750 & 3 \\ 
+	 				4 & 16 & 0.2500 & 4 \\ 
+	 				5 & 32 & 0.1563 & 5 \\ 
+	 				\hline
+	 			\end{tabular}
+	 		\end{center}
+	   		{Table 1. Estimates for qubit numbers, possible states, mean probability, and corresponding Shannon’s entropy in a random
+	   		system.\\\par
+	   		Furthermore, Figure 1 provides a visual representation of the previously computed data. This visualization illustrates the
+	   		two primary approaches to random number generation. The blue line depicts the entropy for a true random generator based on a
+	   		specific number of qubits. In contrast, the red area represents the potential entropy achievable by a pseudo-random number
+	   		generator within a quantum system. This straightforward visualization serves as compelling evidence of the extensive array of
+	   		possibilities for developing PRNGs based on quantum technology.}\\
+	   		
+	   		
+	   		\begin{tikzpicture}
+	   		
+	   			\begin{axis}[
+	   				xtick distance=2,
+	   				ytick distance=1,
+	   				legend pos = north west, 
+	   				xlabel = {$Number of Qubits$},
+	   				ylabel = {$Entropy$},
+	   				ymax=16,
+	   				ymin=0,
+	   				xmax=16,
+	   				xmin=0,
+	   				grid=major,
+	   				unit vector ratio = 2 1
+	   				]
+	   			\legend{ 
+	   				$TRNG (H(A)=n)$ ,
+	   				$PRNG(0<H'(A)<H(A))$, 
+	   			};
+	   				\addplot[blue] coordinates {
+	   					(1,1)  (16,16)
+	   				};
+	   				\addplot[red] coordinates {
+	   					(1,1)(1,1)  (16,1)(16,16)
+	   				};
+	   				\addplot[const plot,fill=red!20] coordinates {
+	   					(1,1)  (16,16)
+	   				};
+	   				\addplot[red] coordinates {
+	   					(1,1)(1,1)  (16,1)(16,16)
+	   				};
+	   			\end{axis}
+	   		\end{tikzpicture}\\
+	   	 	{Figure 1. This figure illustrates the entropy of True Random Number Generators (TRNGs) and Pseudo Random Number
+	   	 		Generators (PRNGs) in a quantum system with varying numbers of qubits. The blue curve represents TRNGs with H(A) = n,
+	   	 		while the red area corresponds to PRNGs with $0 < H'(A) < H(A)$.}
+	   	 	
 	   		
 	   	
    		
