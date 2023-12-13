@@ -192,8 +192,26 @@
 	   		\end{tikzpicture}\\
 	   	 	{Figure 1. This figure illustrates the entropy of True Random Number Generators (TRNGs) and Pseudo Random Number
 	   	 		Generators (PRNGs) in a quantum system with varying numbers of qubits. The blue curve represents TRNGs with H(A) = n,
-	   	 		while the red area corresponds to PRNGs with $0 < H'(A) < H(A)$.}
+	   	 		while the red area corresponds to PRNGs with $0 < H'(A) < H(A)$.}\\\\
 	   	 	
+	   		{\raggedright\small\textbf{Uniform Quantum Probability Distribution with Hadamard Gate}}\par
+	   		{It’s essential to understand that probability is distributed among the states of a quantum system. Non-uniform probability
+	   			distributions can be created within a quantum system through the application of quantum gates. This means that the probability
+	   			associated with each state can vary, being either less or more than the mean probability.\par
+	   			A representation for a non-uniform distribution can be expressed as:$$1=\sum_{i=1}^{2^n}\frac{w_i}{2^n}\eqno(3)$$ where $wi \geq 0$. In the case of a uniform distribution, all values of $w_i$ are set to \par
+	   			The entropy of a non-uniform quantum probability distribution is defined as:1
+	   			$$H'(A)=H(\frac{w_1}{2^n},\frac{w_2}{2^n},...,\frac{w_{2^n}}{2^n})=
+	   			\sum_{i=1}^{2^n} -\frac{w_i}{2^n}\log_2 \frac{w_i}{2^n}\eqno(4)$$\\
+	   		where the primary constraint is given by $\sum_{i=1}^{2^n} \frac{w_i}{2^n}$
+	   		Moreover, for the proposed approach, it is crucial to quantify the deviation of a non-uniform distribution, denoted as 
+	   		$\triangle H'(A)$, in comparison to the uniform distribution H(A). Both quantum systems consist of the same number of qubits and
+	   		states, but the latter incorporates variations in probability due to the application of a set of quantum gates.
+	   		$$\triangle H'(A)= H(A)-H'(A).\eqno(5)$$\par
+	   		The entropy for a uniform distribution (6) is given by:
+	   		$$\triangle H(A)= -2^n\log_2 (\frac{1}{2^n}).\eqno(6)$$\par
+	   		
+	   		}
+	   		
 	   		
 	   	
    		
