@@ -1,9 +1,12 @@
+% !TeX document-id = {ced65680-ea30-4cd2-97a1-b158fa6eb93b}
 
+% !BIB TS-program = biber
 \documentclass[12pt]{article}
 \usepackage[left=25mm, top=20mm, right=10mm, bottom=30mm]{geometry}
 \usepackage{graphicx}
 \graphicspath{ {./images/} }
-
+\usepackage[backend=biber]{biblatex}
+\addbibresource{./references.bib}
 \usepackage[utf8]{inputenc}
 \usepackage{authblk}
 \usepackage{mathtools}
@@ -34,14 +37,14 @@
 	which serves as the initial value to generate the entire sequence. This document proposes a algorithm based on a quantum
 	system and the quasi-probability of its possible states to generate a long set of numbers which has pseudo random properties.
 	The quantum system is compound by n qubits, its initial conditions and a small set of rotation gates with a fixed angle. The
-	tests were realized using the battery test called NIST SP800-22, and $\alpha$ = 0.01 as a threshold to ensures 99% of precision. The
+	tests were realized using the battery test called NIST SP800-22, and $\alpha$ = 0.01 as a threshold to ensures 99\% of precision. The
 	results demonstrate that it is possible generate a long set of pseudo numbers with random characteristics using a quantum
 	simple operation. However, the experiments reveal that a real world implementation require a quantum system with at least
 	10-9 precision order.}\\
 	
 	{\raggedright\large\textbf{Introduction}}\\
 	
-	{Quantum technology offers several new features and has opened the door to a new era - the quantum age. This age began in the early 1980s, when Benioff and Feynman introduced the concept of quantum computing, the main consequencce of the use of quantum mechanism for this propose is the creation of a more effective computer. This theoretical machine is based on qubits as the minimum information unit. Additionally, it has the ability of work with an exponential number of states and realize bast calculations in short time. This new characteristics and phenomenons makes possible the quantum supremacy.\par
+	{Quantum technology offers several new features and has opened the door to a new era - the quantum age. This age began in the early 1980s, when Benioff and Feynman introduced the concept of quantum computing, the main consequencce of the use of quantum mechanism for this propose is the creation of a more effective computer. This theoretical machine is based on qubits as the minimum information unit. Additionally, it has the ability of work with an exponential number of states and realize bast calculations in short time. This new characteristics and phenomenons makes possible the quantum supremacy\cite{a1,a2,a3}.\par
 	A quantum system is compound by a set of qubits, its initial parameters and the gates destinated to realize changes the qubits. The first component is the qubit which has the property of being in a linear combination of its single states, it means $\mid \psi⟩ = \alpha \mid 0⟩+\beta \mid$ 1⟩, where it’s complex components have the restriction $\parallel \alpha \parallel^2 +\parallel \beta \parallel^2 = 1$. An additional consequence is that
 	each auditioned qubit increment exponentially the number of possible states of the system. The second component is the unitary
 	operator which is compound of quantum gates. It allows us to explore the Hilbert’s space by making changes into the qubits.
@@ -49,7 +52,7 @@
 	paradigm for including new quantum phenomenons as part of regular algorithms to develop the counter part of traditional ones.\par
 	As consequence of the realization of quantum computers, some new computer science areas were created: quantum
 	communications, quantum computing, quantum sensing, and quantum simulation.\par
-	Quantum computing aims to create a counterpart of traditional computing and incorporate new properties such as superposition, entanglement, squeezing, and coherence into algorithms. Some important subareas include quantum circuits and software,
+	Quantum computing aims to create a counterpart of traditional computing and incorporate new properties such as superposition, entanglement, squeezing, and coherence into algorithms. Some important subareas include quantum circuits and software\cite{a4,a5,a6},
 	quantum hardware, quantum machine learning, and quantum information science. Some of these new methods, techniques, and
 	algorithms are being used to solve real-world optimization problems4–6.\par
 	Quantum communication focuses on the development of a new generation of functional communication networks and
@@ -57,24 +60,24 @@
 	security. To achieve this goal, researchers deal with quantum entanglement, quantum teleportation, necessary quantum hardware,
 	methods to improve network efficiency, quantum information, quantum cryptography, post quantum cryptography and other
 	related issues.\par
-	Random numbers has importance for our lives because many of the real world applications which are used every day
+	Random numbers has importance for our lives because many of the real world applications which are used every day\cite{a7}
 	requires of it. The definition of generated numbers has four important properties i) Randomness, ii) Long-period, iii) Insensitive 1
-	to seeds, iv) Repeatability. In addition, many relevant events which have had an impact in economy, human right and others
+	to seeds, iv) Repeatability. In addition, many relevant events which have had an impact in economy, human right and others\cite{a8,a9}
 	have occurred because the random systems were broken7.\par
 	There exists two categories to generate random numbers. First, True-Random Number Generator (TRNG) which uses
 	physical sources of true randomness to generate random numbers. Second, Pseudo-Random Number Generator (PRNG) which
 	uses a deterministic algorithm to generate a set of numbers.\par
 	TRNGs operate on the principle that certain physical phenomena, such as electronic noise, radioactive decay, or chaotic
-	systems, are fundamentally unpredictable. These devices capture and convert these naturally occurring processes into random
+	systems, are fundamentally unpredictable. These devices capture and convert these naturally occurring processes into random \cite{a10,a11}
 	numbers. As a result, TRNGs provide numbers that are statistically independent and uniformly distributed, making them
 	suitable for applications requiring the highest level of randomness and security.\par
 	The key advantage of TRNGs is their resistance to predictability, ensuring that the generated numbers cannot be determined,
 	even with complete knowledge of the generator’s internal state. This characteristic makes TRNGs invaluable in fields such as
-	cryptography, secure communications, and gambling, where true randomness is essential to prevent exploitation or predictability.
+	cryptography, secure communications, and gambling, where true randomness is essential to prevent exploitation or predictability\cite{a12,a13,a14}].
 	However, TRNGs may have limitations in terms of speed and efficiency due to their reliance on physical processes. Despite
 	these limitations, they remain the preferred choice for applications where uncompromising randomness is paramount.\par
 	Conversely, a Pseudo Random Number Generators (PRNGs) are a class of algorithms used to generate sequences of
-	numbers that appear random but are, in fact, generated deterministically. These generators rely on initial values, called seeds,
+	numbers that appear random but are, in fact, generated deterministically. These generators rely on initial values, called seeds\cite{a15},
 	and a series of mathematical operations to produce a sequence of numbers that exhibit statistical properties resembling those of
 	truly random sequences. While PRNGs can appear random, they are fundamentally driven by algorithms and initial seed values,
 	meaning that their entropy evolves according to a predictable path.\par
@@ -87,12 +90,12 @@
 	The main limitation of PRNGs lies in their deterministic nature. Given the same initial seed, a PRNG will always produce
 	the same sequence, which makes them unsuitable for applications requiring true randomness and security against predictability.
 	Moreover, PRNGs can exhibit periodicity, where the sequence repeats after a certain number of values.\par
-	This document is structured into several key sections. It begins with an introductory exploration of quantum computing.
+	This document is structured into several key sections. It begins with an introductory exploration of quantum computing\cite{a16}.
 	Subsequently, the Results section provides a summary of the theoretical analysis of the probabilities generated by a quantum
 	system, along with the associated statistical tests. The subsequent section is dedicated to the discussion, where the obtained
 	results are analyzed in comparison with JUR01, including discussions on advantages, disadvantages, and the analysis of the
 	nature of the a non-uniform probability distribution by $\triangle H '(A)$. The following section is the conclusion, summarizing the main
-	points. Finally, the document introduces and details the Quantum Quasi-Probability Pseudo Random Generator (QQ-PRG) algorithm for generating pseudo-random numbers.}\\
+	points. Finally, the document introduces and details the Quantum Quasi-Probability Pseudo Random Generator (QQ-PRG) algorithm for generating pseudo-random numbers\cite{a17}.}\\
 	
 	{\raggedright\large\textbf{Results}}\\\\
 	{\raggedright\small\textbf{Generation of long set of numbers pseudo random numbers}}\par
@@ -362,7 +365,9 @@
 	   				for generating non-uniform distributions could unlock a wealth of opportunities across multiple domains. This work signifies
 	   				a significant step in the direction of deterministic quantum algorithms, offering a long periodicity that can excel in random
 	   				testing. Future developments in this area hold the promise of generating high-quality random numbers and advancing quantum
-	   				computing applications.}
-	   			
+	   				computing applications.}\newpage
+	   				
+	   			{\raggedright\large\textbf{References}}\\
+	   			\printbibliography
 	   			
 \end{document}

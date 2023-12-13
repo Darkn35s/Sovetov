@@ -1,0 +1,656 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{a9}{article}{}
+      \name{author}{3}{}{%
+        {{hash=9cb8bd38cb4f2775e8b580e676193535}{%
+           family={Abd\bibnamedelima El-Latif},
+           familyi={A\bibinitperiod\bibinitdelim E\bibinithyphendelim L\bibinitperiod},
+           given={Ahmed},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4de2e59fc25aefc5aef5f05527d43f08}{%
+           family={Abd-El-Atty},
+           familyi={A\bibinithyphendelim E\bibinithyphendelim A\bibinitperiod},
+           given={Bassem},
+           giveni={B\bibinitperiod}}}%
+        {{hash=b794f27461ef7d305107c1c6d69f8502}{%
+           family={Venegas-Andraca},
+           familyi={V\bibinithyphendelim A\bibinitperiod},
+           given={Salvador},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{4b34c6232c5e43449c541c122aba084e}
+      \strng{fullhash}{4b34c6232c5e43449c541c122aba084e}
+      \strng{bibnamehash}{4b34c6232c5e43449c541c122aba084e}
+      \strng{authorbibnamehash}{4b34c6232c5e43449c541c122aba084e}
+      \strng{authornamehash}{4b34c6232c5e43449c541c122aba084e}
+      \strng{authorfullhash}{4b34c6232c5e43449c541c122aba084e}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physica A: Statistical Mechanics and its Applications}
+      \field{month}{12}
+      \field{title}{Controlled alternate quantum walk-based pseudo-random number generator and its application to quantum color image encryption}
+      \field{volume}{547}
+      \field{year}{2019}
+      \field{pages}{123869}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.physa.2019.123869
+      \endverb
+    \endentry
+    \entry{a12}{article}{}
+      \name{author}{3}{}{%
+        {{hash=9cb8bd38cb4f2775e8b580e676193535}{%
+           family={Abd\bibnamedelima El-Latif},
+           familyi={A\bibinitperiod\bibinitdelim E\bibinithyphendelim L\bibinitperiod},
+           given={Ahmed},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4de2e59fc25aefc5aef5f05527d43f08}{%
+           family={Abd-El-Atty},
+           familyi={A\bibinithyphendelim E\bibinithyphendelim A\bibinitperiod},
+           given={Bassem},
+           giveni={B\bibinitperiod}}}%
+        {{hash=b794f27461ef7d305107c1c6d69f8502}{%
+           family={Venegas-Andraca},
+           familyi={V\bibinithyphendelim A\bibinitperiod},
+           given={Salvador},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{4b34c6232c5e43449c541c122aba084e}
+      \strng{fullhash}{4b34c6232c5e43449c541c122aba084e}
+      \strng{bibnamehash}{4b34c6232c5e43449c541c122aba084e}
+      \strng{authorbibnamehash}{4b34c6232c5e43449c541c122aba084e}
+      \strng{authornamehash}{4b34c6232c5e43449c541c122aba084e}
+      \strng{authorfullhash}{4b34c6232c5e43449c541c122aba084e}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physica A: Statistical Mechanics and its Applications}
+      \field{month}{12}
+      \field{title}{Controlled alternate quantum walk-based pseudo-random number generator and its application to quantum color image encryption}
+      \field{volume}{547}
+      \field{year}{2019}
+      \field{pages}{123869}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.physa.2019.123869
+      \endverb
+    \endentry
+    \entry{a13}{article}{}
+      \name{author}{4}{}{%
+        {{hash=4de2e59fc25aefc5aef5f05527d43f08}{%
+           family={Abd-El-Atty},
+           familyi={A\bibinithyphendelim E\bibinithyphendelim A\bibinitperiod},
+           given={Bassem},
+           giveni={B\bibinitperiod}}}%
+        {{hash=63ea9f8cb47adf7d159b7bebbbef72d0}{%
+           family={Iliyasu},
+           familyi={I\bibinitperiod},
+           given={Abdullah},
+           giveni={A\bibinitperiod}}}%
+        {{hash=525dea4503f1a78e8cf1744fe587b998}{%
+           family={Alanezi},
+           familyi={A\bibinitperiod},
+           given={Ahmad},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9cb8bd38cb4f2775e8b580e676193535}{%
+           family={Abd\bibnamedelima El-Latif},
+           familyi={A\bibinitperiod\bibinitdelim E\bibinithyphendelim L\bibinitperiod},
+           given={Ahmed},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{32dce9678eb9583aeabd5dadb0279117}
+      \strng{fullhash}{f315e4a60f5371683157cab04b95b12a}
+      \strng{bibnamehash}{32dce9678eb9583aeabd5dadb0279117}
+      \strng{authorbibnamehash}{32dce9678eb9583aeabd5dadb0279117}
+      \strng{authornamehash}{32dce9678eb9583aeabd5dadb0279117}
+      \strng{authorfullhash}{f315e4a60f5371683157cab04b95b12a}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Optics and Lasers in Engineering}
+      \field{month}{03}
+      \field{title}{Optical image encryption based on quantum walks}
+      \field{volume}{138}
+      \field{year}{2021}
+      \field{pages}{106403}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.optlaseng.2020.106403
+      \endverb
+    \endentry
+    \entry{a4}{article}{}
+      \name{author}{2}{}{%
+        {{hash=bf366bdcc438c0e7fbacb683880a26fa}{%
+           family={Ajagekar},
+           familyi={A\bibinitperiod},
+           given={Akshay},
+           giveni={A\bibinitperiod}}}%
+        {{hash=25d7afe062fcfc6297b7a7cf93c21f51}{%
+           family={You},
+           familyi={Y\bibinitperiod},
+           given={Fengqi},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{d5d8a85ba8d39b95136b7fa5714212e2}
+      \strng{fullhash}{d5d8a85ba8d39b95136b7fa5714212e2}
+      \strng{bibnamehash}{d5d8a85ba8d39b95136b7fa5714212e2}
+      \strng{authorbibnamehash}{d5d8a85ba8d39b95136b7fa5714212e2}
+      \strng{authornamehash}{d5d8a85ba8d39b95136b7fa5714212e2}
+      \strng{authorfullhash}{d5d8a85ba8d39b95136b7fa5714212e2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Energy}
+      \field{month}{05}
+      \field{title}{Quantum computing for energy systems optimization: Challenges and opportunities}
+      \field{volume}{179}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.1016/j.energy.2019.04.186
+      \endverb
+    \endentry
+    \entry{a2}{article}{}
+      \name{author}{4}{}{%
+        {{hash=def147d3b6c554e0ac3c23fedc639a71}{%
+           family={Bae},
+           familyi={B\bibinitperiod},
+           given={J.-H},
+           giveni={J\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=d8a35e6525ed82a213687c661b63f65e}{%
+           family={Alsing},
+           familyi={A\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=621a2c663a784132568a4bde58c6d34d}{%
+           family={Ahn},
+           familyi={A\bibinitperiod},
+           given={Doyeol},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f5a4cee78f2f94759e7914ea3dc7956a}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={Warner\bibnamedelima A.},
+           giveni={W\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{45619c3d07cf02f17b33079257094a48}
+      \strng{fullhash}{366632ad877708dd26d7d022d60cb624}
+      \strng{bibnamehash}{45619c3d07cf02f17b33079257094a48}
+      \strng{authorbibnamehash}{45619c3d07cf02f17b33079257094a48}
+      \strng{authornamehash}{45619c3d07cf02f17b33079257094a48}
+      \strng{authorfullhash}{366632ad877708dd26d7d022d60cb624}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific reports}
+      \field{month}{09}
+      \field{title}{Quantum circuit optimization using quantum Karnaugh map}
+      \field{volume}{10}
+      \field{year}{2020}
+      \field{pages}{15651}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41598-020-72469-7
+      \endverb
+    \endentry
+    \entry{a1}{article}{}
+      \name{author}{6}{}{%
+        {{hash=220e27d019a8d2d1a5b3cebaecffa625}{%
+           family={Cacciapuoti},
+           familyi={C\bibinitperiod},
+           given={Angela\bibnamedelima Sara},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=e0b9366130e56426ddc6e3404b9c2a45}{%
+           family={Caleffi},
+           familyi={C\bibinitperiod},
+           given={Marcello},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bdd104fb8caa83583aacf00d6d17ed38}{%
+           family={Tafuri},
+           familyi={T\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=87f76d8ff015824ea93b039f65b7cbb8}{%
+           family={Cataliotti},
+           familyi={C\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=2d449de57953ecc5e8ea609492bc431e}{%
+           family={Gherardini},
+           familyi={G\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+        {{hash=637205d4bd6f73106a93abb10fca2d39}{%
+           family={Bianchi},
+           familyi={B\bibinitperiod},
+           given={Giuseppe},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{036e7a1ed2372bba78b5e292e45f6666}
+      \strng{fullhash}{eb2b85aa270bffb62318c67841cdb8a4}
+      \strng{bibnamehash}{036e7a1ed2372bba78b5e292e45f6666}
+      \strng{authorbibnamehash}{036e7a1ed2372bba78b5e292e45f6666}
+      \strng{authornamehash}{036e7a1ed2372bba78b5e292e45f6666}
+      \strng{authorfullhash}{eb2b85aa270bffb62318c67841cdb8a4}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{Quantum Internet: Networking Challenges in Distributed Quantum Computing}
+      \field{year}{2018}
+    \endentry
+    \entry{a14}{article}{}
+      \name{author}{4}{}{%
+        {{hash=f85a169c61c9f26ca4a1f1d12032fcc8}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Ya-jun},
+           giveni={Y\bibinithyphendelim j\bibinitperiod}}}%
+        {{hash=2d266950d8f4626792d4a12e964380dc}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Hong-wei},
+           giveni={H\bibinithyphendelim w\bibinitperiod}}}%
+        {{hash=c085572f860d99d03a37c331ee13ff68}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8c6d18e2d167e1a3dc88c0166bbc3471}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{6ded7f822056079189902739069628fd}
+      \strng{fullhash}{21a29f0e99381ed96ce94664dee3cdba}
+      \strng{bibnamehash}{6ded7f822056079189902739069628fd}
+      \strng{authorbibnamehash}{6ded7f822056079189902739069628fd}
+      \strng{authornamehash}{6ded7f822056079189902739069628fd}
+      \strng{authorfullhash}{21a29f0e99381ed96ce94664dee3cdba}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physica A: Statistical Mechanics and its Applications}
+      \field{month}{04}
+      \field{title}{A novel quantum image encryption technique based on improved controlled alternated quantum walks and hyperchaotic system}
+      \field{volume}{598}
+      \field{year}{2022}
+      \field{pages}{127334}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.physa.2022.127334
+      \endverb
+    \endentry
+    \entry{a11}{article}{}
+      \name{author}{4}{}{%
+        {{hash=8cd0c15694cf1e1421e7b02704e55e79}{%
+           family={Hao},
+           familyi={H\bibinitperiod},
+           given={Wentao},
+           giveni={W\bibinitperiod}}}%
+        {{hash=7db90fa4c4fc3713e092210b09ecd8cc}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Tianshuo},
+           giveni={T\bibinitperiod}}}%
+        {{hash=f5eaa8fd1651e920c16fa2ec75592bc5}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Xianyi},
+           giveni={X\bibinitperiod}}}%
+        {{hash=c3f2fd1ad5952d80c01facf43f2b6a4d}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Xiaoyi},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{47c0e2d51180b81ec047148a5e3e06d6}
+      \strng{fullhash}{5d40f9456ce7b1a909c90e8f09a14913}
+      \strng{bibnamehash}{47c0e2d51180b81ec047148a5e3e06d6}
+      \strng{authorbibnamehash}{47c0e2d51180b81ec047148a5e3e06d6}
+      \strng{authornamehash}{47c0e2d51180b81ec047148a5e3e06d6}
+      \strng{authorfullhash}{5d40f9456ce7b1a909c90e8f09a14913}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Signal Processing}
+      \field{month}{12}
+      \field{title}{A hybrid NEQR image encryption cryptosystem using two-dimensional quantum walks and quantum coding}
+      \field{volume}{205}
+      \field{year}{2022}
+      \field{pages}{108890}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.sigpro.2022.108890
+      \endverb
+    \endentry
+    \entry{a7}{article}{}
+      \name{author}{4}{}{%
+        {{hash=fd2a39c0078d41184954879c1310eebe}{%
+           family={Jacak},
+           familyi={J\bibinitperiod},
+           given={Marcin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=06b31b517dc443a1f3d4b889be8f5385}{%
+           family={Jóźwiak},
+           familyi={J\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod}}}%
+        {{hash=b59b0c58c86cec58e8589e3418b74b69}{%
+           family={Niemczuk},
+           familyi={N\bibinitperiod},
+           given={Jakub},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7b994c877f54f4ac484b6d4e86b40551}{%
+           family={Jacak},
+           familyi={J\bibinitperiod},
+           given={Janusz},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{9bc2a710e99ce1cd4fb52b454c44d2c9}
+      \strng{fullhash}{e42b9218a1560f234e8bffbe74d673e0}
+      \strng{bibnamehash}{9bc2a710e99ce1cd4fb52b454c44d2c9}
+      \strng{authorbibnamehash}{9bc2a710e99ce1cd4fb52b454c44d2c9}
+      \strng{authornamehash}{9bc2a710e99ce1cd4fb52b454c44d2c9}
+      \strng{authorfullhash}{e42b9218a1560f234e8bffbe74d673e0}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Reports}
+      \field{month}{08}
+      \field{title}{Quantum generators of random numbers}
+      \field{volume}{11}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1038/s41598-021-95388-7
+      \endverb
+    \endentry
+    \entry{a6}{unknown}{}
+      \name{author}{3}{}{%
+        {{hash=f924a10adb49d1b1042cff6432a3e12b}{%
+           family={Krenn},
+           familyi={K\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d4e0e66a0dfde9b52a5690fd5bddb3ef}{%
+           family={Erhard},
+           familyi={E\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a961661d22885d8f3bcba104deec38f0}{%
+           family={Zeilinger},
+           familyi={Z\bibinitperiod},
+           given={Anton},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{bc330cab8ea7446a595f2b01d09dd43d}
+      \strng{fullhash}{bc330cab8ea7446a595f2b01d09dd43d}
+      \strng{bibnamehash}{bc330cab8ea7446a595f2b01d09dd43d}
+      \strng{authorbibnamehash}{bc330cab8ea7446a595f2b01d09dd43d}
+      \strng{authornamehash}{bc330cab8ea7446a595f2b01d09dd43d}
+      \strng{authorfullhash}{bc330cab8ea7446a595f2b01d09dd43d}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{02}
+      \field{title}{Computer-inspired Quantum Experiments}
+      \field{year}{2020}
+    \endentry
+    \entry{a15}{article}{}
+      \name{author}{4}{}{%
+        {{hash=d1947ffaac097364cb9713368cc68e96}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Vaishnavi},
+           giveni={V\bibinitperiod}}}%
+        {{hash=32ca01cdd9efe90d0fdb9cd96abb6ee5}{%
+           family={Rayappan},
+           familyi={R\bibinitperiod},
+           given={John\bibnamedelimb Bosco\bibnamedelima Balaguru},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=a797d4279edb2376d5b09544bc9fe9f4}{%
+           family={Amirtharajan},
+           familyi={A\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=27ea7c7bb5753f7b1ff43c47430828aa}{%
+           family={Praveenkumar},
+           familyi={P\bibinitperiod},
+           given={Padmapriya},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{d6e8370a1c947ec5169a011944b2dcbb}
+      \strng{fullhash}{f81463c29aa8acaf8aa7effdf6c77ebf}
+      \strng{bibnamehash}{d6e8370a1c947ec5169a011944b2dcbb}
+      \strng{authorbibnamehash}{d6e8370a1c947ec5169a011944b2dcbb}
+      \strng{authornamehash}{d6e8370a1c947ec5169a011944b2dcbb}
+      \strng{authorfullhash}{f81463c29aa8acaf8aa7effdf6c77ebf}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of King Saud University - Computer and Information Sciences}
+      \field{month}{01}
+      \field{title}{Quantum true random number generation on IBM’s cloud platform}
+      \field{volume}{34}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.1016/j.jksuci.2022.01.015
+      \endverb
+    \endentry
+    \entry{a8}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=c8e35c2ea29dc11020ab990549c5ab41}{%
+           family={Mishra},
+           familyi={M\bibinitperiod},
+           given={Arun},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c8e35c2ea29dc11020ab990549c5ab41}
+      \strng{fullhash}{c8e35c2ea29dc11020ab990549c5ab41}
+      \strng{bibnamehash}{c8e35c2ea29dc11020ab990549c5ab41}
+      \strng{authorbibnamehash}{c8e35c2ea29dc11020ab990549c5ab41}
+      \strng{authornamehash}{c8e35c2ea29dc11020ab990549c5ab41}
+      \strng{authorfullhash}{c8e35c2ea29dc11020ab990549c5ab41}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{04}
+      \field{title}{Evaluation of Cryptographically Secure Pseudo Random Number Generators for Post Quantum Era}
+      \field{year}{2022}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/I2CT54291.2022.9824543
+      \endverb
+    \endentry
+    \entry{a5}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5562b07a10aa214dc47b0d3d4228bea0}{%
+           family={Spiller},
+           familyi={S\bibinitperiod},
+           given={Timothy},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{5562b07a10aa214dc47b0d3d4228bea0}
+      \strng{fullhash}{5562b07a10aa214dc47b0d3d4228bea0}
+      \strng{bibnamehash}{5562b07a10aa214dc47b0d3d4228bea0}
+      \strng{authorbibnamehash}{5562b07a10aa214dc47b0d3d4228bea0}
+      \strng{authornamehash}{5562b07a10aa214dc47b0d3d4228bea0}
+      \strng{authorfullhash}{5562b07a10aa214dc47b0d3d4228bea0}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Materials Today - MATER TODAY}
+      \field{month}{01}
+      \field{title}{Quantum information technology}
+      \field{volume}{6}
+      \field{year}{2003}
+      \field{pages}{30\bibrangedash 36}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1016/S1369-7021(03)00130-5
+      \endverb
+    \endentry
+    \entry{a10}{article}{}
+      \name{author}{2}{}{%
+        {{hash=268689b4a65d23d6e8a05987b1eedfd6}{%
+           family={Su},
+           familyi={S\bibinitperiod},
+           given={Yining},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=6aa95790804e01d86d1e97406cfd000e}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xingyuan},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{57e70fe1e41fa7598e2cd091d1994f51}
+      \strng{fullhash}{57e70fe1e41fa7598e2cd091d1994f51}
+      \strng{bibnamehash}{57e70fe1e41fa7598e2cd091d1994f51}
+      \strng{authorbibnamehash}{57e70fe1e41fa7598e2cd091d1994f51}
+      \strng{authornamehash}{57e70fe1e41fa7598e2cd091d1994f51}
+      \strng{authorfullhash}{57e70fe1e41fa7598e2cd091d1994f51}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physica A: Statistical Mechanics and its Applications}
+      \field{month}{10}
+      \field{title}{A robust visual image encryption scheme based on controlled quantum walks}
+      \field{volume}{587}
+      \field{year}{2021}
+      \field{pages}{126529}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.physa.2021.126529
+      \endverb
+    \endentry
+    \entry{a3}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c10e4c23e1af15c6e09a79c8c836091d}{%
+           family={Thapliyal},
+           familyi={T\bibinitperiod},
+           given={Himanshu},
+           giveni={H\bibinitperiod}}}%
+        {{hash=a5f72f39cf6a2417a8e3722030620277}{%
+           family={Muñoz-Coreas},
+           familyi={M\bibinithyphendelim C\bibinitperiod},
+           given={Edgard},
+           giveni={E\bibinitperiod}}}%
+        {{hash=e4904c96b2390a138e4db8fc10b94830}{%
+           family={Khalus},
+           familyi={K\bibinitperiod},
+           given={Vladislav},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{2e545b6acd1d5ac28804891d5b86fcfa}
+      \strng{fullhash}{2e545b6acd1d5ac28804891d5b86fcfa}
+      \strng{bibnamehash}{2e545b6acd1d5ac28804891d5b86fcfa}
+      \strng{authorbibnamehash}{2e545b6acd1d5ac28804891d5b86fcfa}
+      \strng{authornamehash}{2e545b6acd1d5ac28804891d5b86fcfa}
+      \strng{authorfullhash}{2e545b6acd1d5ac28804891d5b86fcfa}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sustainable Computing: Informatics and Systems}
+      \field{month}{11}
+      \field{title}{Quantum circuit designs of carry lookahead adder optimized for T-count T-depth and qubits}
+      \field{volume}{29}
+      \field{year}{2020}
+      \field{pages}{100457}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.suscom.2020.100457
+      \endverb
+    \endentry
+    \entry{a16}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9a9a04a2ee91a520c8540707aabd7565}{%
+           family={Vajapeyam},
+           familyi={V\bibinitperiod},
+           given={Sriram},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{9a9a04a2ee91a520c8540707aabd7565}
+      \strng{fullhash}{9a9a04a2ee91a520c8540707aabd7565}
+      \strng{bibnamehash}{9a9a04a2ee91a520c8540707aabd7565}
+      \strng{authorbibnamehash}{9a9a04a2ee91a520c8540707aabd7565}
+      \strng{authornamehash}{9a9a04a2ee91a520c8540707aabd7565}
+      \strng{authorfullhash}{9a9a04a2ee91a520c8540707aabd7565}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{03}
+      \field{title}{Understanding Shannon's Entropy metric for Information}
+      \field{year}{2014}
+    \endentry
+    \entry{a17}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1cf402bfa6ba616194eb9fc27f6bd6b8}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yanghua},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{1cf402bfa6ba616194eb9fc27f6bd6b8}
+      \strng{fullhash}{1cf402bfa6ba616194eb9fc27f6bd6b8}
+      \strng{bibnamehash}{1cf402bfa6ba616194eb9fc27f6bd6b8}
+      \strng{authorbibnamehash}{1cf402bfa6ba616194eb9fc27f6bd6b8}
+      \strng{authornamehash}{1cf402bfa6ba616194eb9fc27f6bd6b8}
+      \strng{authorfullhash}{1cf402bfa6ba616194eb9fc27f6bd6b8}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Geophysical Journal International}
+      \field{month}{01}
+      \field{title}{The Ricker wavelet and the Lambert W function}
+      \field{volume}{200}
+      \field{year}{2015}
+      \field{pages}{111\bibrangedash 115}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1093/gji/ggu384
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
